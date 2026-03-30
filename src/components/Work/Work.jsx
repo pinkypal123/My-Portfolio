@@ -46,9 +46,12 @@ const Work = () => {
               <h3 className="text-2xl font-bold text-white mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
+              <p className="text-gray-500 mb-4 pt-4
+               line-clamp-7
+               ">
                 {project.description}
               </p>
+               
               <div className="mb-4">
                 {project.tags.map((tag, index) => (
                   <span

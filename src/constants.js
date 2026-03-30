@@ -26,6 +26,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 
 // Experience Section Logo's
+import freelancingLogo from './assets/company_logo/freelancer-logo.png';
 import grabittsLogo from './assets/company_logo/grabitts.jpg';
 import appsinvoLogo from './assets/company_logo/appsinvo.jpg';
 import iphLogo from './assets/company_logo/iph.jpg';
@@ -120,11 +121,32 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      img: freelancingLogo,
+      role: "Frontend Developer",
+      company: "Freelance Frontend Developer",
+      date: "August 2023 - March 2025",
+      desc: "Worked as a freelance Frontend developer, delivering custom web applications with a focus on clean UI, responsiveness, and client satisfaction.",
+      skills: [
+         "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux",
+        "Next Js",
+        "Bootstrap",
+        "Figma",
+        "Material UI"
+      ],
+    },
+    {
+      id: 1,
       img: appsinvoLogo,
       role: "Frontend Developer",
       company: "Appsinvo Private Limited",
       date: "August 2023 - March 2025",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      desc: "Frontend Developer at Appsinvo Private Limited — built dynamic and responsive web applications using React.js, Material UI, and modern frontend practices, focusing on performance, usability, and maintainable code.",
       skills: [
          "HTML",
         "CSS",
@@ -143,7 +165,7 @@ export const SkillsInfo = [
       id: 2,
       img: iphLogo,
       role: "Frontend Developer",
-      company: "Newton School",
+      company: "IPH Technologies Private Limited",
       date: "June 2022 - July 2023",
       desc: "Worked as a Frontend Developer, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
@@ -197,7 +219,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Billing Software",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+        "Billing Software is a web-based application built using React that helps businesses generate invoices, manage customer data, and track transactions efficiently.",
       image: billingLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
     },
@@ -205,7 +227,7 @@ export const SkillsInfo = [
       id: 1,
       title: "IPH Technologies Website",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Developed a responsive company website for IPH Technologies using React, showcasing services, company information, and contact features.",
       image: iphTechLogo,
       tags: ["React JS", "HTML", "CSS", "JavaScript"],
     },
@@ -213,8 +235,8 @@ export const SkillsInfo = [
       id: 2,
       title: "HPOS-Hassan Point Of Sale",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Developed a web-based POS system using React.js and Material UI with a focus on reusable components and clean architecture. Implemented core features like billing, order management, inventory tracking, and API integration, along with secure authentication and optimized, responsive UI.",
       image: hposLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "MUI", "TypeScript"],
+      tags: ["Next JS", "API", "HTML", "CSS", "JavaScript", "MUI", "TypeScript"],
     },
   ];  
