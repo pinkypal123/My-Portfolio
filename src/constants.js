@@ -187,7 +187,7 @@ export const SkillsInfo = [
       id: 0,
       img: aktuLogo,
       school: "APJ Abdul Kalam Technical University, Lucknow",
-      date: "Sept 2022 - July 2024",
+      date: "July 2017 - June 2021",
       grade: "8.1 CGPA",
       desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from Dr. A.P.J. Abdul Kalam Technical University, Lucknow. During my studies, I gained a strong foundation in core subjects like Data Structures, Algorithms, Object-Oriented Programming, and Web Development. This experience helped me build solid technical and problem-solving skills.",
       degree: "Bachelor of Technology (CSE) - B.Tech",
