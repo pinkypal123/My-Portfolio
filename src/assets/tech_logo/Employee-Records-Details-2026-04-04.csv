@@ -1,0 +1,6 @@
+﻿"Organization","Organization Code","Employee Name","Invoice Number","Customer Code","Customer Name","Relation","Item Group","Item Code","Brand","Item Price","Sale Price","Quantity","Amount","Discount Amount","Net Sale","Discount Name","Delivery Date"
+"JABRIA","JABR","Faisal C P","","RT11057022","emp YMK ","","SOLUTIONS-CS","","AMARA",0,0,1,0,0,0,"1ST APRIL EMP RELATION","2026-04-02"
+"JABRIA","JABR","sushma 21 aug","","RT11057021","march smk ","","FRAME-FR","","BENETTON",25,25,1,25,0,25,"1ST APRIL EMP RELATION","2026-04-01"
+"JABRIA","JABR","sushma 21 aug","","RT11057021","march smk ","","FRAME-FR","","TOM FORD",112,112,1,112,56,56,"1ST APRIL EMP RELATION","2026-04-01"
+"SOUQ SHARQ","SHRQ","sushma 21 aug","","RT11057021","march smk ","","FRAME-FR","","TOM FORD",112,112,1,112,56,56,"1ST APRIL EMP RELATION","2026-04-01"
+"JABRIA","JABR","Faisal C P","","RT11057022","emp YMK ","","SUNGLASS-SG","","EMPORIO ARMANI",54,54,1,54,0,54,"1ST APRIL EMP RELATION","2026-04-02"

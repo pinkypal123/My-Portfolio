@@ -213,8 +213,17 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+   
     {
-      id: 0,
+      id: 1,
+      title: "HPOS-Hassan Point Of Sale",
+      description:
+        "Developed a web-based POS system using React.js and Material UI with a focus on reusable components and clean architecture. Implemented core features like billing, order management, inventory tracking, and API integration, along with secure authentication and optimized, responsive UI.",
+      image: hposLogo,
+      tags: ["Next JS", "API", "HTML", "CSS", "JavaScript", "MUI", "TypeScript"],
+    },
+     {
+      id: 2,
       title: "Billing Software",
       description:
         "Billing Software is a web-based application built using React that helps businesses generate invoices, manage customer data, and track transactions efficiently.",
@@ -222,19 +231,11 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
     },
     {
-      id: 1,
+      id: 3,
       title: "IPH Technologies Website",
       description:
         "Developed a responsive company website for IPH Technologies using React, showcasing services, company information, and contact features.",
       image: iphTechLogo,
       tags: ["React JS", "HTML", "CSS", "JavaScript"],
-    },
-    {
-      id: 2,
-      title: "HPOS-Hassan Point Of Sale",
-      description:
-        "Developed a web-based POS system using React.js and Material UI with a focus on reusable components and clean architecture. Implemented core features like billing, order management, inventory tracking, and API integration, along with secure authentication and optimized, responsive UI.",
-      image: hposLogo,
-      tags: ["Next JS", "API", "HTML", "CSS", "JavaScript", "MUI", "TypeScript"],
     },
   ];  
