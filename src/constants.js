@@ -23,6 +23,7 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import cursorLogo from './assets/tech_logo/cursorAI.png';
 
 
 // Experience Section Logo's
@@ -89,109 +90,111 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      // { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Cursor AI', logo: cursorLogo },
       { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: grabittsLogo,
-      role: "Frontend Developer",
-      company: "Grabitts Softech Services Private Limited",
-      date: "September 2025 - April 2026",
-      desc: "Developed and maintained a web-based Point of Sale (POS) system using React.js and Material UI, focusing on reusable components and clean frontend architecture.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux",
-        "Next Js",
-        "Bootstrap",
-        "Figma",
-        "Material UI"
-      ],
-    },
-    {
-      id: 1,
-      img: freelancingLogo,
-      role: "Frontend Developer",
-      company: "Freelance Frontend Developer",
-      date: "August 2023 - March 2025",
-      desc: "Worked as a freelance Frontend developer, delivering custom web applications with a focus on clean UI, responsiveness, and client satisfaction.",
-      skills: [
-         "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux",
-        "Next Js",
-        "Bootstrap",
-        "Figma",
-        "Material UI"
-      ],
-    },
-    {
-      id: 1,
-      img: appsinvoLogo,
-      role: "Frontend Developer",
-      company: "Appsinvo Private Limited",
-      date: "August 2023 - March 2025",
-      desc: "Frontend Developer at Appsinvo Private Limited — built dynamic and responsive web applications using React.js, Material UI, and modern frontend practices, focusing on performance, usability, and maintainable code.",
-      skills: [
-         "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux",
-        "Next Js",
-        "Bootstrap",
-        "Figma",
-        "Material UI"
-      ],
-    },
-    {
-      id: 2,
-      img: iphLogo,
-      role: "Frontend Developer",
-      company: "IPH Technologies Private Limited",
-      date: "June 2022 - July 2023",
-      desc: "Worked as a Frontend Developer, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-       "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Tailwind CSS",
-        "Redux",
-        "Next Js",
-        "Bootstrap",
-        "Figma",
-        "Material UI"
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: aktuLogo,
-      school: "APJ Abdul Kalam Technical University, Lucknow",
-      date: "July 2017 - June 2021",
-      grade: "8.1 CGPA",
-      desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from Dr. A.P.J. Abdul Kalam Technical University, Lucknow. During my studies, I gained a strong foundation in core subjects like Data Structures, Algorithms, Object-Oriented Programming, and Web Development. This experience helped me build solid technical and problem-solving skills.",
-      degree: "Bachelor of Technology (CSE) - B.Tech",
-    },
+export const experiences = [
+  {
+    id: 0,
+    img: grabittsLogo,
+    role: "Full Stack Developer",
+    company: "Grabitts Softech Services Private Limited",
+    date: "September 2025 - April 2026",
+    desc: "Developed and maintained a scalable web-based Point of Sale (POS) system using React.js, Node.js, Express.js, and MongoDB. Built RESTful APIs for billing, order management, and inventory tracking, and implemented JWT-based authentication with role-based access control. Designed responsive UI using Material UI and ensured seamless frontend-backend integration.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "TypeScript",
+      "REST API",
+      "JWT Auth",
+      "Redux Toolkit",
+      "Material UI",
+      "Bootstrap",
+      "Git",
+      "Postman"
+    ],
+  },
+  {
+    id: 1,
+    img: freelancingLogo,
+    role: "Frontend Developer",
+    company: "Freelance Frontend Developer",
+    date: "August 2023 - March 2025",
+    desc: "Worked as a freelance Frontend developer, delivering custom web applications with a focus on clean UI, responsiveness, and client satisfaction.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Next Js",
+      "Bootstrap",
+      "Figma",
+      "Material UI"
+    ],
+  },
+  {
+    id: 2,
+    img: appsinvoLogo,
+    role: "Frontend Developer",
+    company: "Appsinvo Private Limited",
+    date: "August 2023 - March 2025",
+    desc: "Frontend Developer at Appsinvo Private Limited — built dynamic and responsive web applications using React.js, Material UI, and modern frontend practices, focusing on performance, usability, and maintainable code.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Next Js",
+      "Bootstrap",
+      "Figma",
+      "Material UI"
+    ],
+  },
+  {
+    id: 3,
+    img: iphLogo,
+    role: "Frontend Developer",
+    company: "IPH Technologies Private Limited",
+    date: "June 2022 - July 2023",
+    desc: "Worked as a Frontend Developer, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Next Js",
+      "Bootstrap",
+      "Figma",
+      "Material UI"
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: aktuLogo,
+    school: "APJ Abdul Kalam Technical University, Lucknow",
+    date: "July 2017 - June 2021",
+    grade: "8.1 CGPA",
+    desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from Dr. A.P.J. Abdul Kalam Technical University, Lucknow. During my studies, I gained a strong foundation in core subjects like Data Structures, Algorithms, Object-Oriented Programming, and Web Development. This experience helped me build solid technical and problem-solving skills.",
+    degree: "Bachelor of Technology (CSE) - B.Tech",
+  },
   //  {
   //     id: 0,
   //     img: aktuLogo,
@@ -210,32 +213,41 @@ export const SkillsInfo = [
   //     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
   //     degree: "CBSE(X), Science with Computer Application",
   //   },
-  ];
-  
-  export const projects = [
-   
-    {
-      id: 1,
-      title: "HPOS-Hassan Point Of Sale",
-      description:
-        "Developed a web-based POS system using React.js and Material UI with a focus on reusable components and clean architecture. Implemented core features like billing, order management, inventory tracking, and API integration, along with secure authentication and optimized, responsive UI.",
-      image: hposLogo,
-      tags: ["Next JS", "API", "HTML", "CSS", "JavaScript", "MUI", "TypeScript"],
-    },
+];
+
+export const projects = [
+
+  {
+    id: 1,
+    title: "HPOS - Point of Sale System",
+    description:
+      "Developed a scalable full-stack POS system using React.js, Node.js, Express.js, and MongoDB. Built RESTful APIs for billing, order management, and inventory tracking. Implemented JWT-based authentication and role-based access control, along with a responsive and high-performance UI using Material UI.",
+    image: hposLogo,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST API",
+      "JWT Auth",
+      "Material UI",
+      "JavaScript"
+    ],
+  },
      {
-      id: 2,
-      title: "Billing Software",
-      description:
-        "Billing Software is a web-based application built using React that helps businesses generate invoices, manage customer data, and track transactions efficiently.",
-      image: billingLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    },
-    {
-      id: 3,
-      title: "IPH Technologies Website",
-      description:
-        "Developed a responsive company website for IPH Technologies using React, showcasing services, company information, and contact features.",
-      image: iphTechLogo,
-      tags: ["React JS", "HTML", "CSS", "JavaScript"],
-    },
-  ];  
+    id: 2,
+    title: "Billing Software",
+    description:
+      "Billing Software is a web-based application built using React that helps businesses generate invoices, manage customer data, and track transactions efficiently.",
+    image: billingLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+  },
+  {
+    id: 3,
+    title: "IPH Technologies Website",
+    description:
+      "Developed a responsive company website for IPH Technologies using React, showcasing services, company information, and contact features.",
+    image: iphTechLogo,
+    tags: ["React JS", "HTML", "CSS", "JavaScript"],
+  },
+];  

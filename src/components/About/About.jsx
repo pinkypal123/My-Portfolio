@@ -22,10 +22,13 @@ const About = () => {
             Pinky Pal
           </h2>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-       <span className="text-white">I am a </span>
-          <ReactTypingEffect
+            <span className="text-white">I am a </span>
+            <ReactTypingEffect
               text={[
+                'Full Stack Developer',
                 'Frontend Developer',
+                'Backend Developer',
+                'MERN Stack Developer'
               ]}
               speed={100}
               eraseSpeed={50}
@@ -51,11 +54,11 @@ const About = () => {
       </h3> */}
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed pe-5">
-            Frontend Developer with 3.5+ years of experience building responsive and interactive web applications. Basic knowledge of backend technologies, currently growing towards full-stack development.
+Full Stack Developer with 3.5+ years of experience building scalable and responsive web applications. Skilled in React.js, Next.js, Node.js, and MongoDB, with expertise in frontend development, REST API integration, and JWT-based authentication.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1ZTbEijzCdE-fCbaNkN6AAEZOO-kUltqM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Gt-5xDtF4T32ZtaDL0TQLefLhP_mmPfU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
