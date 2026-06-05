@@ -102,7 +102,7 @@ export const experiences = [
     img: grabittsLogo,
     role: "Full Stack Developer",
     company: "Grabitts Softech Services Private Limited",
-    date: "September 2025 - April 2026",
+    date: "September 2025 - Present",
     desc: "Developed and maintained a scalable web-based Point of Sale (POS) system using React.js, Node.js, Express.js, and MongoDB. Built RESTful APIs for billing, order management, and inventory tracking, and implemented JWT-based authentication with role-based access control. Designed responsive UI using Material UI and ensured seamless frontend-backend integration.",
     skills: [
       "React.js",
