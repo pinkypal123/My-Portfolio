@@ -5,7 +5,6 @@ import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
@@ -14,6 +13,7 @@ import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import postgreLogo from './assets/tech_logo/postgre.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -24,6 +24,15 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import cursorLogo from './assets/tech_logo/cursorAI.png';
+import swaggerLogo from './assets/tech_logo/swagger-logo.png';
+import { FaDatabase } from 'react-icons/fa6';
+import {
+  SiClaude,
+  SiDocker,
+  SiGithubcopilot,
+  SiJsonwebtokens,
+  SiRedux,
+} from 'react-icons/si';
 
 
 // Experience Section Logo's
@@ -40,6 +49,7 @@ import aktuLogo from './assets/education_logo/aktu.png';
 import billingLogo from './assets/work_logo/billing.svg';
 import iphTechLogo from './assets/work_logo/iph.png';
 import hposLogo from './assets/work_logo/hassan-brand.jpeg';
+import pmsLogo from './assets/work_logo/pms.svg';
 
 
 export const SkillsInfo = [
@@ -49,9 +59,9 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      { name: 'React.js', logo: reactjsLogo },
+      { name: 'Next.js', logo: nextjsLogo },
+      { name: 'Redux Toolkit', logo: SiRedux },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
@@ -60,38 +70,43 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      // { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      // { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo }
-      // { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Node.js', logo: nodejsLogo },
+      { name: 'Express.js', logo: expressjsLogo },
+      { name: 'REST APIs', logo: swaggerLogo },
+      { name: 'JWT Authentication', logo: SiJsonwebtokens },
+      { name: 'Mongoose', logo: mongodbLogo },
     ],
   },
   {
-    title: 'Languages',
+    title: 'Database',
     skills: [
-      // { name: 'C', logo: cLogo },
-      // { name: 'C++', logo: cppLogo },
-      // { name: 'Java', logo: javaLogo },
-      // { name: 'Python', logo: pythonLogo },
-      // { name: 'C-Sharp', logo: csharpLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
+    ],
+  },
+  {
+    title: 'Programming Languages',
+    skills: [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'SQL', logo: FaDatabase },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Tools & AI',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      { name: 'MongoDB Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Cursor AI', logo: cursorLogo },
+      { name: 'Docker', logo: SiDocker },
       { name: 'Figma', logo: figmaLogo },
+      { name: 'Cursor AI', logo: cursorLogo },
+      { name: 'GitHub Copilot', logo: SiGithubcopilot },
+      { name: 'Claude', logo: SiClaude },
     ],
   },
 ];
@@ -231,6 +246,21 @@ export const projects = [
       "REST API",
       "JWT Auth",
       "Material UI",
+      "JavaScript"
+    ],
+  },
+  {
+    id: 4,
+    title: "PMS (Process Management System)",
+    description:
+      "A web-based Process Management System for organizing workflows, tracking tasks, and monitoring progress. It helps teams manage day-to-day processes with clear task ownership and status updates.",
+    image: pmsLogo,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST API",
       "JavaScript"
     ],
   },

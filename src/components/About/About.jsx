@@ -54,11 +54,10 @@ const About = () => {
       </h3> */}
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed pe-5">
-Full Stack Developer with 4+ years of experience building scalable and responsive web applications. Skilled in React.js, Next.js, Node.js, and MongoDB, with expertise in frontend development, REST API integration, and JWT-based authentication.
-          </p>
+Full Stack Developer with 4+ years of experience building scalable and responsive web applications. Skilled in React.js, Next.js, TypeScript, Node.js, Express.js, and MongoDB, with expertise in frontend development, REST API development and integration, and JWT-based authentication.          </p>
 
           <a
-            href="https://drive.google.com/file/d/15FEheok8CWOJ5Hf0wIr5SlZYNwdyPDc9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1doUet0SO5ohmcUvZZiVoj1H4dnSXehs_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

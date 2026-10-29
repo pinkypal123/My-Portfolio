@@ -42,21 +42,32 @@ const Skills = () => (
             gyroscope={true}
           >
             <div className="grid grid-cols-2 sm:grid-cols-2 gap-2 w-full">
-              {category.skills.map((skill) => (
-                <div
-                  key={skill.name}
-                  className="flex items-center justify-center space-x-1 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
-                >
-                  <img
-                    src={skill.logo}
-                    alt={`${skill.name} logo`}
-                    className="w-4 h-4 sm:w-6 sm:h-6 rounded-lg"
-                  />
-                  <span className="text-xs sm:text-sm text-gray-300">
-                    {skill.name}
-                  </span>
-                </div>
-              ))}
+              {category.skills.map((skill) => {
+                const Logo = skill.logo;
+
+                return (
+                  <div
+                    key={skill.name}
+                    className="flex items-center justify-center space-x-1 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
+                  >
+                    {typeof Logo === "string" ? (
+                      <img
+                        src={Logo}
+                        alt={`${skill.name} logo`}
+                        className="w-4 h-4 sm:w-6 sm:h-6 rounded-lg"
+                      />
+                    ) : (
+                      <Logo
+                        aria-label={`${skill.name} logo`}
+                        className="w-4 h-4 sm:w-6 sm:h-6 shrink-0 text-gray-300"
+                      />
+                    )}
+                    <span className="text-xs sm:text-sm text-gray-300">
+                      {skill.name}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </Tilt>
         </div>
